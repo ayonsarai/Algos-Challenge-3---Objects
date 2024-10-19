@@ -1,0 +1,38 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.card {
+  flex: 50%;
+  max-width: 40%;
+  padding: 0 25px;
+  margin-bottom: 16px;
+}
+
+.problem-test {
+  margin-bottom: 32px;
+  list-style-type: none;
+}
+
+.problem-test p {
+  max-width: 90%;
+  padding: 0 15px;
+  margin-bottom: 16px;
+}
+
+.example,
+.parameter,
+.expected,
+.actual {
+  font-weight: 600;
+}
+
+.problem-test {
+  background-color: rgb(241, 182, 182);
+}
+
+.test-pass {
+  background-color: rgb(155, 246, 155);
+}
